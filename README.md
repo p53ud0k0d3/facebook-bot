@@ -16,7 +16,7 @@ Then note down the address. It will look something like this "https://ac433506.n
 - [ ] Then click "Add products" and add "Messenger".
 - [ ] Select your page from dropdown and generate the access token. Note down the access token. You will need to provide it in "server.py".
 - [ ] Click "Setup webhooks".
-- [ ] But before setting up webhooks, run *tempserver.py*. Facebook will send a GET request to the callback URL we provide. The request will contain a custom secret we can add (while setting up the webhook) and a challenge code from Facebook. They expect us to output the challenge code to verify ourselves. To do so, we write a quick GET handler using Flask.
+- [ ] But before setting up webhooks, run *temp_server.py*. Facebook will send a GET request to the callback URL we provide. The request will contain a custom secret we can add (while setting up the webhook) and a challenge code from Facebook. They expect us to output the challenge code to verify ourselves. To do so, we have written a quick GET handler using Flask in *temp_server.py* 
 - [ ] Add address obtained from ngrok as *Callback url*. Input something as *Secret*, our code doesn't care much about it. Tick *message_deliveries*, *messages*, *messaging_optins* and *messaging_postbacks*. Click *Verify and Save*. You will be back to previous page. In *webhooks* section, select page and click *subscribe*.
 - [ ] Stop the temp_server.py
 
