@@ -32,7 +32,7 @@ ________________________________________________________________________________
 
 This is just a skeleton. You can do a lot and improve a lot in this. Sky is the limit.
 
-**What I did :** I downloaded (around 3200)tweets of bollywood actor Shah Rukh Khan using my **[GetTweets](https://github.com/p53ud0k0d3/GetTweets)** script. Then I used **[Markovify](https://github.com/jsvine/markovify)**(a simple  Markov chain generator) to generate random sentences from the tweets I have downloaded, and used those sentences as reply messages
+**What I did :** I downloaded (around 3000)tweets of bollywood actor Shah Rukh Khan using my **[GetTweets](https://github.com/p53ud0k0d3/GetTweets)** script. Then I used **[Markovify](https://github.com/jsvine/markovify)**(a simple  Markov chain generator) to generate random sentences from the tweets I have downloaded, and used those sentences as reply messages
 
 ```
 @app.route('/', methods=['POST'])
