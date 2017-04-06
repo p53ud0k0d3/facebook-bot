@@ -1,6 +1,7 @@
 # facebook-bot
 
 [![Join the chat at https://gitter.im/facebook-bot-chat/Lobby](https://badges.gitter.im/facebook-bot-chat/Lobby.svg)](https://gitter.im/facebook-bot-chat/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 Bot(skeleton) for your Facebook page messages
 
 - [x] **pip install Flask**
